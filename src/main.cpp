@@ -1,8 +1,8 @@
 #include <iostream>
 #include <vector>
 
-#include "include/map.h"
-#include "include/solver.h"
+#include "includes/map.h"
+#include "includes/solver.h"
 
 int main() {
   std::vector < std::vector<int> > vecMap = {

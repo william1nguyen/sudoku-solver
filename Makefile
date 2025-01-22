@@ -11,7 +11,7 @@ CXXFLAGS = -Wall -g --std=${CXX_STD}
 TARGET = main
 
 # Source files
-SRC = main.cpp
+SRC = src/main.cpp
 
 build:
 	$(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET)

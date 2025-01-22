@@ -72,7 +72,6 @@ bool SudokuMap::isNumberInPartial(int row, int col, int num) {
 
 bool SudokuMap::isMapValid() {
   const int mapWidth = (*this).width;
-  const int mapPartialWidth = (*this).partialWidth;
 
   std::vector<bool> existed(10, true);
 
